@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    
+    
+    <br.com.lucasaquiles.view.AreaView
+        android:id="@+id/pic"
+        android:layout_width="211dp"
+        android:layout_height="277dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/img"
+        android:orientation="vertical" >
+
+   </br.com.lucasaquiles.view.AreaView>
+    
+    <br.com.lucasaquiles.view.AreaView
+        android:id="@+id/areaView"
+        android:layout_width="211dp"
+        android:layout_height="277dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/face"
+        android:baselineAligned="false"
+        android:gravity="fill_vertical"
+        android:orientation="vertical" >
+
+   </br.com.lucasaquiles.view.AreaView>
+   
+   <br.com.lucasaquiles.view.ImageScrollerView
+       android:id="@+id/horizontalScrollView1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentLeft="true" >
+    </br.com.lucasaquiles.view.ImageScrollerView>
+
+</RelativeLayout>
